@@ -25,19 +25,19 @@
 
 /**
  * Baru >>> Pengalaman militer dibawah 5 tahun.
- * Berpengalaman >>> Pengalaman militer diatas 5 tahun, dibawah 10 tahun.
- * Sangat Berpengalaman >>> Pengalaman militer diatas 10 tahu
+ * Berpengalaman >>> Pengalaman militer diatas sama dengan 5 tahun, dibawah sama dengan 10 tahun.
+ * Sangat Berpengalaman >>> Pengalaman militer diatas 10 tahun
  */
 
-let nama; // String
-let umur; // Number
-let jenisKelamin; // String
-let pengalamanMiliterTahun; // Number
-let pengalamanMiliterKategori; // String
-let jabatan; // String
-
-/**
- * Jawaban: Ubah value dari variable [jabatan] menjadi => "HALO [nama] DENGAN UMUR [umur] DAN JENIS KELAMIN [jenisKelamin] DENGAN PENGALAMAN MILITER ANDA YANG [pengalamanMiliterKategori] ANDA BERHAK MENDUDUKI [jabatan]"
- */
-
-// your code here
+ let nama; // String
+ let umur; // Number
+ let jenisKelamin; // String
+ let pengalamanMiliterTahun; // Number
+ let pengalamanMiliterKategori; // String
+ let jabatan; // String
+ 
+ /**
+  * Jawaban: Ubah value dari variable [jabatan] menjadi => "HALO [nama] DENGAN UMUR [umur] DAN JENIS KELAMIN [jenisKelamin] DENGAN PENGALAMAN MILITER ANDA YANG [pengalamanMiliterKategori] ANDA BERHAK MENDUDUKI [jabatan]"
+  */
+ 
+ // your code here
