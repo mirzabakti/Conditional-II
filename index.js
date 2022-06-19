@@ -41,3 +41,46 @@
   */
  
  // your code here
+ 
+ // Input
+ nama = "Mirza Bakti";
+ umur = 40;
+ jenisKelamin = "Pria";
+ pengalamanMiliterTahun = 15;
+ 
+ // Filter kategori pengalaman militer
+ if (pengalamanMiliterTahun < 5) {
+    pengalamanMiliterKategori = "Baru";
+ } else if (pengalamanMiliterTahun >= 5 && pengalamanMiliterTahun <= 10) {
+    pengalamanMiliterKategori = "Berpengalaman";
+ } else if (pengalamanMiliterTahun > 10) {
+    pengalamanMiliterKategori = "Sangat Berpengalaman";
+ };
+
+ // Filter jabatan
+ if (jenisKelamin == "Wanita") {
+    if (umur >= 30 && umur <=55 && pengalamanMiliterTahun >= 10) {
+        jabatan = "Officer Medis";
+    } else if (umur >= 18 && umur <=30) {
+        jabatan = "Medis";
+    }
+ } else if (jenisKelamin == "Pria") {
+    if (umur >= 40 && umur <= 65 && pengalamanMiliterTahun >= 15) {
+        jabatan = "Jendral Perang";
+    } else if (umur >= 30 && umur <= 50 && pengalamanMiliterTahun >= 9) {
+        jabatan = "Officer II";
+    } else if (umur >= 25 && umur <= 45 && pengalamanMiliterTahun >= 7) {
+        jabatan = "Officer I";
+    } else if (umur >= 18 && umur <= 30 && pengalamanMiliterTahun >= 5) {
+        jabatan = "Tentara";
+    }
+ };
+
+ // Output
+ if (pengalamanMiliterKategori == undefined || jabatan == undefined || pengalamanMiliterTahun >= umur) {
+    jabatan = "DATA TIDAK VALID";
+ } else {
+    jabatan = `HALO ${nama} DENGAN UMUR ${umur} DAN JENIS KELAMIN ${jenisKelamin} DENGAN PENGALAMAN MILITER ANDA YANG ${pengalamanMiliterKategori} ANDA BERHAK MENDUDUKI ${jabatan}`;
+ };
+ 
+ console.log(jabatan);
